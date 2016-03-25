@@ -8,7 +8,3 @@ $('form').on('submit', function (e) {
   $li.html($input.val(''));
   $list.append($li);
 });
-
-$('ul').on('click', 'li', function (e) {
-  $(this).toggleClass('strike');
-});
